@@ -14,7 +14,7 @@ function Experience() {
               <img className="company-logo" src={marketBoxLogo} alt="MarketBox"/>
               <h3 className="company-position"><i className="fas fa-hard-hat icon"></i> Full Stack Engineer</h3>
               <p className="company-duration"><i className="fas fa-calendar-week icon"></i> September - December 2021</p>
-              <p className="company-location"> <i className="fas fa-map-marked icon"></i> Location</p>
+              <p className="company-location"> <i className="fas fa-map-marked icon"></i> Toronto, ON</p>
               <div className="company-details">
                 <ul>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut tortor arcu. 
@@ -37,7 +37,7 @@ function Experience() {
               <img className="company-logo" src={thinktumLogo} alt="Thinktum"/>
               <h3 className="company-position"><i className="fas fa-hard-hat icon"></i> Full Stack Engineer</h3>
               <p className="company-duration"><i className="fas fa-calendar-week icon"></i> January - April 2021</p>
-              <p className="company-location"> <i className="fas fa-map-marked icon"></i> Location</p>
+              <p className="company-location"> <i className="fas fa-map-marked icon"></i> Waterloo, ON</p>
               <div className="company-details">
                 <ul>
                   <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut tortor arcu. 

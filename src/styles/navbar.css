@@ -43,3 +43,43 @@
     border: 2px solid var(--secondaryColor);
     padding: 5px;
 }
+
+@media only screen and (max-width: 900px) {
+    .navbar {
+        padding: 0px 10px
+    }
+    .nav-right {
+        justify-content: flex-end;
+    }
+    .nav-right  a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .nav-links {
+        margin-right: 150px;
+    }
+    .list-num {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-right  a {
+        font-size: 11px;
+    }
+    .nav-links {
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    #resume {
+        margin-right: 60px;
+    }
+    .nav-links {
+        margin-right: 85px;
+    }
+    .nav-links a {
+        padding: 2px;
+    }
+}

@@ -1,6 +1,24 @@
 .footer {
-    height: 400px;
+    height: 600px;
     width:100%;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-size: clamp(40px, 5vw, 60px);
+    margin-top: -30px;
+}
+
+.contact-me h2 {
+    color: #027dc5;
+}
+
+.contact-me a:nth-of-type(1):hover  {
+    filter: invert(32%) sepia(94%) saturate(1743%) hue-rotate(181deg) brightness(88%) contrast(98%);
 }
 
 .ocean { 

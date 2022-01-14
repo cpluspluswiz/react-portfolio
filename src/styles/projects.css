@@ -88,7 +88,7 @@
         width: 90vw;
         max-width: 600px;
         padding: 40px 40px 30px;
-        background-color: brown;
+        background-color: var(--backgroundColor);
         /* background-image: url(../images/projects/project1.png);
         background-position: center;
         background-repeat: no-repeat; */
@@ -96,7 +96,9 @@
 
     .project-desc {
         padding: 10px 0px;
-        background-color: brown;
+        background-color: var(--backgroundColor2);
+        padding: 8px;
+        border-radius: 3px;
     }
 
     .project:nth-child(n) .project-stack {
