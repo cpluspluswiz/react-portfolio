@@ -1,0 +1,105 @@
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.project:nth-child(2n) img {
+    order: 2;
+    position: relative;
+    z-index: 2;
+    left: -50px;
+}
+.project:nth-child(2n) .project-info {
+    order: 1;
+    position: static;
+    text-align: left;
+    z-index: 2;
+}
+
+.project:nth-child(2n) .project-stack {
+    flex-direction: row;
+}
+
+.project:nth-child(2n) .project-stack li { 
+    margin-left: 0px;
+    margin-right: 6px;
+}
+
+.project:nth-child(2n) .project-links img {
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    margin-right: 6px;
+}
+
+.project-img {
+    width: 40vw;
+    max-width: 600px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.project-info {
+    position: relative;
+    z-index: 2;
+    left:-50px;
+    width: 500px;
+    text-align: right;
+}
+
+.project-desc {
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #112240;
+    background-color: #ffffff;
+    border: rgba(100, 100, 111, 0.2) 1px solid;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 25px 0px 10px;
+    list-style: none;
+}
+
+.project-stack li {
+    margin-left: 6px;
+    color: var(--secondaryColor);
+}
+
+.project-links img {
+    width: 25px;
+    margin-left: 6px;
+}
+
+@media only screen and (max-width: 900px) {
+    .project:nth-child(n) .project-img {
+        display: none; 
+
+    }
+    .project:nth-child(n) .project-info {
+        position: static;
+        text-align: left;
+        width: 90vw;
+        max-width: 600px;
+        padding: 40px 40px 30px;
+        background-color: brown;
+        /* background-image: url(../images/projects/project1.png);
+        background-position: center;
+        background-repeat: no-repeat; */
+    }
+
+    .project-desc {
+        padding: 10px 0px;
+        background-color: brown;
+    }
+
+    .project:nth-child(n) .project-stack {
+        flex-direction: row;
+    }
+}

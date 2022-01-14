@@ -1,0 +1,41 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.skill {
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 15px;
+    color:white;
+    text-align: center;
+    transition: all .4s ease 0s;
+    z-index: 1;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.skill img {
+    width: 100px;
+    display: block;
+}
+
+@media only screen and (max-width: 470px) {
+    .skills {
+        margin-bottom: 50px;
+    }
+
+    .skill {
+        padding: 10px;
+    }
+
+    .skill img {
+        width: 30vw;
+    }
+}

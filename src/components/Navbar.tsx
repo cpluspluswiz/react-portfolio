@@ -1,0 +1,22 @@
+import React from 'react';
+import '../styles/navbar.css';
+
+function Navbar() {
+  return (
+  <div className="navbar">
+      <div className="logo">MA</div>
+      <div className="nav-right">
+        <ul className="nav-links">
+            <li><a href="#about-nav"><span className="list-num">01.&nbsp;</span>About</a></li>
+            <li><a href="#skills-nav"><span className="list-num">02.&nbsp;</span>Skills</a></li>
+            <li><a href="#experience-nav"><span className="list-num">03.&nbsp;</span>Experience</a></li>
+            <li><a href="#projects-nav"><span className="list-num">04.&nbsp;</span>Projects</a></li>
+            <li><a href="#contact-nav"><span className="list-num">05.&nbsp;</span>Contact</a></li>
+        </ul>
+        <a href="#about"className="btn">Resume</a>
+    </div>
+  </div>
+  );
+}
+
+export default Navbar;
