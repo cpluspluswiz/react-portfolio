@@ -13,7 +13,7 @@
     margin: 0px 20px;
     margin-bottom: 80px;
     width: 400px;
-    height: 650px;
+    height: 730px;
     background-color: #ffffff;
     border: rgba(100, 100, 111, 0.2) 1px solid;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -62,8 +62,8 @@
     list-style-type: none;
 }
 
-.compnay-details li {
-    margin-bottom: 5px;
+.list-work li{
+    margin-bottom: 8px;
 }
 
 .bullet {
