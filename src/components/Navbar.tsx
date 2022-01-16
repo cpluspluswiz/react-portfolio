@@ -1,7 +1,10 @@
 import React from 'react';
 import '../styles/navbar.css';
+import pdf from "../documents/resume.pdf"
+
 
 function Navbar() {
+
   return (
   <div className="navbar">
       <div className="logo">MA</div>
@@ -13,7 +16,7 @@ function Navbar() {
             <li><a href="#projects-nav"><span className="list-num">04.&nbsp;</span>Projects</a></li>
             <li><a href="#contact-nav"><span className="list-num">05.&nbsp;</span>Contact</a></li>
         </ul>
-        <a href="#about"className="btn" id="resume">Resume</a>
+        <a href={pdf} target="_blank" rel="noreferrer" className="btn" id="resume">Resume</a>
     </div>
   </div>
   );
