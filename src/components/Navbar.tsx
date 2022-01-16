@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/navbar.css';
-import pdf from "../documents/resume.pdf"
+import pdf from "../documents/resume1.pdf"
 
 
 function Navbar() {
