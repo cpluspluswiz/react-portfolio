@@ -15,8 +15,9 @@ function Projects() {
           <div className="project-info">
               <h3 style={{marginBottom: "20px"}}>Sorting Algorithm Visualizer</h3>
               <div className="project-desc">
-                  <p>This Web app helps visualize some of the sorting algorithms to give a better intuition 
-                    of how they are working. Some of the algorithms that can be visualized are: Bubble sort, Quick Sort, and Merge Sort.</p>
+                  <p>Designed a web application using ReactJS to help visualize various sorting algorithms to give a better intuition of 
+                    underlying logic with features such as speed and array size adjustment. 
+                    Some of the algorithms that can be visualized are: Bubble sort, Quick Sort, and Merge Sort.</p>
               </div>
               <ul className="project-stack">
                   <li>HTML</li>
@@ -36,8 +37,7 @@ function Projects() {
           <div className="project-info">
               <h3 style={{marginBottom: "20px"}}>Chat App</h3>
               <div className="project-desc">
-                  <p>A Chat web app made using NextJS. Allows you to add an emial and start instantly chatting with them. 
-                    Features google authentication using Fireabase.</p>
+                  <p>Developed a real-time messaging application using NextJS and Firebase secured by Google Authentication.</p>
               </div>
               <ul className="project-stack">
                   <li>Firebase</li>
