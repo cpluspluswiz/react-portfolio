@@ -5,6 +5,7 @@ import typescriptLogo from '../images/skills/typescriptLogo.svg'
 import html5Logo from '../images/skills/html5Logo.svg'
 import css3Logo from '../images/skills/css3Logo.svg'
 import mongodbLogo from '../images/skills/mongodbLogo.svg'
+import cppLogo from '../images/skills/cppLogo.svg'
 
 function Skills() {
   return (
@@ -16,7 +17,7 @@ function Skills() {
         <div className="skill"><img src={typescriptLogo} alt="typescriptLogo"></img>TypeScript</div>
         <div className="skill"><img src={reactLogo} alt="reactLogo"></img>ReactJS</div>
         <div className="skill"><img src={mongodbLogo} alt="mongodbLogo"></img>MongoDB</div>
-        <div className="skill"><img src={reactLogo} alt="reactlogo"></img>Reactjs</div>
+        <div className="skill"><img src={cppLogo} alt="cppLogo"></img>C++</div>
     </div>
     
   </>
