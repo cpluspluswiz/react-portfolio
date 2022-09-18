@@ -1,12 +1,34 @@
 import '../styles/experience.css';
 import marketBoxLogo from '../images/company-logos/marketBoxLogo.png'
 import thinktumLogo from '../images/company-logos/thinktumLogos.png'
+import pccLogo from '../images/company-logos/pccLogo.png'
 
 function Experience() {
   return (
   <div className="experience">
     <h3 id="experience-nav" className="tab-heading"><span className="list-num tab-num">03.&nbsp;</span>Experience</h3>
       <section id="companies">
+        <div className="company-card">
+          <div className="card-heading">
+            <div className="company-title" style={{backgroundColor: "var(--pointClickCare)"}}>PointClickCare</div>
+            <div className="card-body">
+              <img className="company-logo" src={pccLogo} alt="PointClickCare"/>
+              <h3 className="company-position"><i className="fas fa-hard-hat icon"></i> Software Engineer</h3>
+              <p className="company-duration"><i className="fas fa-calendar-week icon"></i> May 2022 - Aug 2022</p>
+              <p className="company-location"> <i className="fas fa-map-marked icon"></i> Mississauga, ON</p>
+              <div className="company-details">
+                <ul className="list-work">
+                  <li>Enhanced the chat application by implementing a voice and video call feature to enable patients and 
+                      practitioners to communicate other than just through text.</li>
+                    <li>Improved the UI/UX of the chat application by translating designs and wireframes from Figma to 
+                        high-quality code using ReactJS and fixed various bugs leading to a more pleasant user experience.</li>
+                    <li>Developed extensive unit tests in Jest to ensure code was tested and bug free and wrote end-to-end
+                        tests in Cypress leading to a more reliable and stable application.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="company-card">
           <div className="card-heading">
             <div className="company-title" style={{backgroundColor: "var(--marketBoxColor)"}}>MarketBox</div>
